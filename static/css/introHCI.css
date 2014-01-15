@@ -14,12 +14,14 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color:#8DFFA6;
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
 }
+
 
 .jumbotron:after {
      content:"";
@@ -33,10 +35,17 @@ body {
      z-index: -1;	
 }
 
-.project {
-    margin-left: 20px;
-    background-color: #deebf7;
-    padding: 20px;
-    width: 525px;
+#name_header {
+     font-family:"Impact", Times, serif;
 }
+
+.container {
+     background-color:#E8D778;
+}
+
+.thumbnail {
+     background-color:#BFD3F5;
+}
+
+
 
